@@ -16,6 +16,7 @@ const Calculate =()=>{
     return (
         <div className="box">
         <div className="calculatorBox">
+            <h1>React-Calculator</h1>
             <div className="inputBoxs">
                 <input onBlur={(e)=>setInputOne(e.target.value)} type="number" placeholder="Num 1" name="Num-1"/>
                 <input onBlur={(e)=>setInputTwo(e.target.value)} type="number" placeholder="Num 2" name="Num-2"/>
